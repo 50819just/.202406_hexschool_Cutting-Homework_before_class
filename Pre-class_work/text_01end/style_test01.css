@@ -88,23 +88,73 @@ body {
 }
 .main_VITO{
 	text-align: start;
-	font-size: 300px;
-	padding: 200px 10%;
+	font-size: 150px;
+	padding:50px 10px;
 }
 .main_img{
 display: flex;
 justify-content: center;
-width: 636px;
-height: 848px;
+align-items: center;
+/* width: 636px;
+height: 848px; */
+width: auto ;
+height: auto;
+padding-left: 100px;
 }
+
+
+
 .main_RESUME{
 	text-align:end;
-	font-size: 300px;
+	font-size: 150px;
 	padding: 200px 10%;
+	letter-spacing:0.5rem;
+
+
 }
+
+
+.main_font_gary{
+
+	font-size: 20px;
+	color: #949494;
+}
+
 .main_font{
+	display:flex;
+	justify-content: end;
 	width: 636px;
 	height: 336px;
-	font-size: 32px;
+	font-size :40px;
 	text-align: start;
+	letter-spacing:0;
+ 
+}
+.bottom_mian-font{
+   border-bottom: solid 3px  red;
+   width: 636px ;
+   color: red;
+}
+
+.bottom-mian-ul{
+	list-style-type: none;
+	padding: 5px 0;
+    margin-bottom: 5px;
+	
+
+}
+
+
+.footer_style{
+  width:auto;
+  height:  192px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer_logo{
+	width: 64px;
+	height: 64px;
 }
