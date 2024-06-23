@@ -270,21 +270,33 @@ align-self: start;
 }
 
 
-
+.card-body{
+	display:inline;
+align-items: center;
+text-align: center;
+padding: 0px;
+}
 
 
 
 .card-font {
 
-	font-size: 20px;
+	font-size: 22px;
 	color: #3F5D45;
+	margin: 10px ;
+
 
 
 }
 
 .btn_GoInshop {
-
-	margin-top: 10px;
+  background-color: #EAF0ED;
+	
+	width:280.4px;
+	height: 80px;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 24px;
 }
 
 
