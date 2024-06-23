@@ -154,9 +154,9 @@ body {
 }
 
 .list_ul {
-
+align-self: start;
 	list-style-type: none;
-
+  
 }
 
 
