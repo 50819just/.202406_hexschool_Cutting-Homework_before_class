@@ -143,23 +143,28 @@ table {
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
+
 }
+
 .Bruno_Ace_SC-sm {
     font-family: Bruno Ace SC, sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
+    pointer-events: none;
 }
+
 .Bruno_Ace_SC-20px {
     font-family: Bruno Ace SC, sans-serif;
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
+    pointer-events: none;
 }
 
-.color-black{
+.color-black {
     color: #000000;
 }
 
@@ -220,7 +225,7 @@ table {
     font-weight: 400px;
     text-decoration: none;
     color: #000000;
-
+    pointer-events: none;
 }
 
 /*main */
@@ -270,6 +275,9 @@ table {
 
 /* main2 */
 .main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 740px;
     width: auto;
     background-color: #ffffff;
@@ -282,27 +290,62 @@ table {
 }
 
 .main_div2_p {
+    width: auto;
     background: #000000;
 
 }
 
-.main2_div{
-display: flex;
+.main2_div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 680px;
+    margin-right: 100px;
 
-
-    
 }
 
-.main2_card  {
+.main2_card {
     width: 306px;
     height: 148px;
-    padding: 16px ;
-    gap: 10px;
+    padding: 16px;
+    gap: 5px;
     border: 1px solid #E3E3E3;
 
 }
-.a_font{
+
+.a_font {
     text-decoration: none;
     color: #000000;
-   
+    pointer-events: none;
+}
+
+/* main-2_contact */
+
+.main-2_contact {
+
+    height: 354px;
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+
+}
+
+.main2_a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: left;
+    pointer-events: none;
+}
+
+.main_img_item {
+    width: 526px;
+    height: auto;
+    
+
+
+}
+.main_img{
+    width: 150px;
+    border-radius: 40px;
 }
